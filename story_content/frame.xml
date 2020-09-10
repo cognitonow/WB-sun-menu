@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10111000101" textdirection="ltr" device="false" fontscale="125" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxabnsnfns10111000101" textdirection="ltr" device="false" fontscale="125" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns10111000101" font="Lato" controllayout="npnxnanbsnfns10111000101" colorscheme="pxabnsnfns10111000101" string_table="pxabnsnfns10111000101" />
-    <layout name="pxabnsnfns10111000101" font="Lato" controllayout="pxabnsnfns10111000101" colorscheme="pxabnsnfns10111000101" string_table="pxabnsnfns10111000101" />
-    <layout name="npxnabnsnfns10111000101" font="Lato" controllayout="npxnabnsnfns10111000101" colorscheme="pxabnsnfns10111000101" string_table="pxabnsnfns10111000101" />
-    <layout name="npnxnanbnsnfns10111000101" font="Lato" controllayout="npnxnanbnsnfns10111000101" colorscheme="pxabnsnfns10111000101" string_table="pxabnsnfns10111000101" />
-    <layout name="pxabnsnfns10111000100" font="Lato" controllayout="pxabnsnfns10111000100" colorscheme="pxabnsnfns10111000101" string_table="pxabnsnfns10111000101" />
+    <layout name="npnxnanbsnfns10111000101" font="Lato" controllayout="npnxnanbsnfns10111000101" colorscheme="npnxabnsnfns10111000101" string_table="npnxabnsnfns10111000101" />
+    <layout name="pxabnsnfns10111000101" font="Lato" controllayout="pxabnsnfns10111000101" colorscheme="npnxabnsnfns10111000101" string_table="npnxabnsnfns10111000101" />
+    <layout name="npxnabnsnfns10111000101" font="Lato" controllayout="npxnabnsnfns10111000101" colorscheme="npnxabnsnfns10111000101" string_table="npnxabnsnfns10111000101" />
+    <layout name="npnxnanbnsnfns10111000101" font="Lato" controllayout="npnxnanbnsnfns10111000101" colorscheme="npnxabnsnfns10111000101" string_table="npnxabnsnfns10111000101" />
+    <layout name="pxabnsnfns10111000100" font="Lato" controllayout="pxabnsnfns10111000100" colorscheme="npnxabnsnfns10111000101" string_table="npnxabnsnfns10111000101" />
+    <layout name="npnxabnsnfns10111000101" font="Lato" controllayout="npnxabnsnfns10111000101" colorscheme="npnxabnsnfns10111000101" string_table="npnxabnsnfns10111000101" />
+    <layout name="pnxanbnsnfns10111000101" font="Lato" controllayout="pnxanbnsnfns10111000101" colorscheme="npnxabnsnfns10111000101" string_table="npnxabnsnfns10111000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,7 +15,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="WB Sun Demo" />
+              <option name="title_text" value="Effective Communication &#xB;in the Workplace" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -42,7 +44,7 @@
           </optionlist>
           <option name="time_enabled" value="false">
             <options>
-              <option name="time_format" value="" />
+              <option name="time_format" value="elapsed" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -211,9 +213,55 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
+    <control_layout name="npnxabnsnfns10111000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns10111000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns10111000101">
+    <colorscheme name="npnxabnsnfns10111000101">
       <color_group name="infopanel">
         <group_colors>
           <color name="link_text">
@@ -1141,7 +1189,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns10111000101">
+    <string_table name="npnxabnsnfns10111000101">
       <string id="acc_active">active</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
@@ -1204,7 +1252,73 @@
       <links>
         <slidelink slideid="_player.6Wfc9nGTzuS" displaytext="Untitled Scene" expand="true" type="slide">
           <links>
+            <slidelink slideid="_player.6Wfc9nGTzuS.6WMpy4zhbIO" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Wfc9nGTzuS.6JhFcEOfRWS" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Wfc9nGTzuS.6C69TLZfTNx" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Wfc9nGTzuS.5YqctHYn7O5" displaytext="What do you think went wrong in this scenario?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Wfc9nGTzuS.6kiw7MioR9s" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6Wfc9nGTzuS.5xlznLo6TQx" displaytext="Menu" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6MrIWHJuRwU" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6MrIWHJuRwU.6X5bDgY3Wlg" displaytext="Click to reveal home" expand="false" type="slide" />
+            <slidelink slideid="_player.6MrIWHJuRwU.5xHGdIKLqje" displaytext="Types of Com - Verbal" expand="false" type="slide" />
+            <slidelink slideid="_player.6MrIWHJuRwU.6Je4tbUloIB" displaytext="Types of Com - Verbal" expand="false" type="slide" />
+            <slidelink slideid="_player.6MrIWHJuRwU.5VvuaN2dK7X" displaytext="Types of Com - Verbal" expand="false" type="slide" />
+            <slidelink slideid="_player.6MrIWHJuRwU.6V2AzqAysDF" displaytext="Types of Com - Verbal" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6OjFurD2qcn" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6OjFurD2qcn.6KqJYVZGmQx" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6OjFurD2qcn.6dULfWi5Yjq" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6OjFurD2qcn.68kqQKHpS1U" displaytext="Click to reveal home" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6gyQF9qXBLf" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6gyQF9qXBLf.5juKN9j8elb" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6gyQF9qXBLf.6lvqCAthxha" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6gyQF9qXBLf.5s54pm6uJRv" displaytext="Situation You have asked to schedule a meeting with your team regarding some feedback from the client. What are the elements that need to be included in the email to send out as an clear and complete message?&#xA;&#xA;Select an option and click submit." expand="false" type="slide" />
+            <slidelink slideid="_player.6gyQF9qXBLf.6UvsgJt3IOU" displaytext="Situation: You are based at Acme Plaza and today you visit SUN House for a meeting. You meet a senior stakeholder in the elevator and he/she asks you for some quick updates on a subject. How would you respond? &#xA;&#xA;Select an option and click submit." expand="false" type="slide" />
+            <slidelink slideid="_player.6gyQF9qXBLf.6SRWvW5YCpo" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6gyQF9qXBLf.60kxqELvVcp" displaytext="Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.6gyQF9qXBLf.6D4Unoiu6vN" displaytext="Drag and Drop" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6YP8qJOkKAx" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6YP8qJOkKAx.5YQwwGohDZj" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6YP8qJOkKAx.5t8Z6Z8BzRA" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6YP8qJOkKAx.6j7bsydiUZI" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6YP8qJOkKAx.6F1qggTXsmP" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6YP8qJOkKAx.5yMIaqhapu6" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6YP8qJOkKAx.5ytCuGLkyN5" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6YP8qJOkKAx.6gn3JXTueWS" displaytext="Learning Objectives" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5wxFYoqAsXv" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5wxFYoqAsXv.6Byropcirgi" displaytext="Learning Objectives" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6bcgCU6ncX7" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6bcgCU6ncX7.5l4l6L9axQR" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6bcgCU6ncX7.5pktzGkP1zT" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6bcgCU6ncX7.5u028PeQkvv" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6bcgCU6ncX7.5Yabieals6N" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.63kqIf68QL6" displaytext="Assessment" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.63kqIf68QL6.67lGyMjtv2D" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.63kqIf68QL6.63814WVD9n6" displaytext="Q1. ‘Calmness’ is one of the 7 Cs of Communication. &#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.63kqIf68QL6.6Ajwg5Llpge" displaytext="Q2. What is the goal of effective communication?" expand="false" type="slide" />
+            <slidelink slideid="_player.63kqIf68QL6.6Fww0u3rHk5" displaytext="Q 3. Situation: During a kickoff session of a newly acquired project, one of your subordinates presents an out of the box idea which is good; but can not be used due to budget constraints. &#xA;&#xA;How would you react? " expand="false" type="slide" />
+            <slidelink slideid="_player.63kqIf68QL6.6hgmzD727AV" displaytext="Q4. Which one of the following is a barrier to successful communication?" expand="false" type="slide" />
+            <slidelink slideid="_player.63kqIf68QL6.6KoLLmjwk73" displaytext="Q 5. Situation: You have been asked to attend an meeting with the stakeholders about an  on-going project. What all points should you keep in mind while attending the meeting? " expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
